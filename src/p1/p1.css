@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.listHolder {
+    list-style-type: ">";
+    padding: 1%;
+}
+
+.listHolder > li::marker {
+    color: #F06F38;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 158.5%;
+}
+
+.p1_text {
+    font-family: Montserrat, sans-serif;
+    height: fit-content;
+    padding: 4%;
+    padding-left: 10%;
+    background: #FFF9E7 url("box.png") no-repeat center/contain;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+    right: 5px;
+}
+
+.p1_image {
+    z-index: 2;
+    position: relative;
+    left: 50px;
+}
+
+.p1_holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.p1_footer_item_img {
+    width: 71px;
+}
+
+.p1_footer_item_text {
+    color: #F06F38;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 38px;
+    padding-left: 1vw;
+}
+
+.p1_footer_item_holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*margin: 5%;*/
+}
+
+.p1_footer_holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2.5%;
+    padding-top: 2.5% ;
+    padding-bottom: 2.5%;
+    background: #FFFCB2;
+}
