@@ -19,6 +19,15 @@ function GenericTopItem(props: { imgPath: string, text: string }) {
     )
 }
 
+function Cart(){
+    return (
+        <div className={"cartHolder navHolder"}>
+            <img src={"/images/cart.png"} alt={"Cart"}/>
+            <div className={"cartText"}>Go To Cart</div>
+        </div>
+    )
+}
+
 function Header() {
     return (
         <div className={"navHolder"}>
@@ -30,6 +39,9 @@ function Header() {
                 <GenericTopItem imgPath={"/images/store.png"} text={"Store"}/>
                 <GenericTopItem imgPath={"/images/about.png"} text={"About"}/>
                 <GenericTopItem imgPath={"/images/house.png"} text={"Home"}/>
+            </div>
+            <div className={"cartHolderHolder"}>
+                <Cart/>
             </div>
         </div>
     )
