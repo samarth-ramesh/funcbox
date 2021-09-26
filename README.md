@@ -9,6 +9,8 @@
  1. No confetti
  2. The design is not very mobile friendly.
 ---
+All the known issues can easily be fixed with a little more time.
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
