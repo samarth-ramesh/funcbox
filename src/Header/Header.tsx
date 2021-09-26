@@ -3,6 +3,8 @@ import {useState} from "react";
 // @ts-ignore
 import CheeseburgerMenu from 'cheeseburger-menu'
 
+import {Link} from "react-router-dom";
+
 function Logo() {
     return (
         <div className={"header_logo_holder"}>
@@ -45,7 +47,7 @@ function CartItems() {
                     </div>
                 </div>
             </div>
-            <button className={"header_cart_pay_button"}>Proceed to pay</button>
+            <Link to={"/"} className={"header_cart_pay_button"}>Proceed to pay</Link>
         </div>
     )
 }

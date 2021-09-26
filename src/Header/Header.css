@@ -134,6 +134,7 @@
 }
 
 .header_cart_pay_button {
+    display: block;
     background: #36BFA5;
     border-radius: 38px;
     border-style: none;
@@ -146,6 +147,7 @@
     letter-spacing: 0;
     text-align: center;
     color: white;
-    /*margin: 5%;*/
     margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
