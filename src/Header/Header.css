@@ -13,6 +13,7 @@
     width: fit-content;
     justify-content: center;
     align-items: center;
+    padding-left: 40%;
 }
 
 .header_generic_nav_item_text {
