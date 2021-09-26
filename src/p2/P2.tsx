@@ -76,6 +76,14 @@ function P2() {
                 </ul>
             </Item>
         </div>
+        <div className={"p2_footer"}>
+            <img src={"/images/box.png"} alt={"Gift Box"}/>
+            <div className={"p2_footer_text_holder"}>
+                <div className={"p2_footer_text"}> Searching for a one-time gift or corporate? <div className={"p2_footer_text_link"}>You're in luck»</div></div>
+            </div>
+
+        </div>
+
     </>
 }
 

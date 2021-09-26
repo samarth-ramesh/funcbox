@@ -152,3 +152,45 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.p2_footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #FFFCB2;
+    height: 96px;
+}
+
+.p2_footer > img {
+    z-index: 2;
+    position: relative;
+    left: 20%;
+    padding: 0;
+}
+
+.p2_footer_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFCB2;
+    z-index: 1;
+    height: fit-content;
+    width: 100vw;
+
+    font-family: Lato, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0;
+    text-align: left;
+
+    color: #F79200;
+
+}
+
+.p2_footer_text_link {
+    text-decoration: underline;
+
+}
