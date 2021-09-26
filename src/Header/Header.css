@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lato:wght@700&display=swap');
 
-.logoText {
+.header_logo_text {
     font-family: 'Bubblegum Sans', cursive;
     font-size: 40px;
     line-height: 47px;
     color: #6e6e6e
 }
 
-.logoHolder {
+.header_logo_holder {
     display: flex;
     flex-direction: row;
     width: fit-content;
@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-.genericNavItemText {
+.header_generic_nav_item_text {
     font-family: Lato, sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -25,7 +25,7 @@
     color: #6e6e6e;
 }
 
-.genericNavItemHolder {
+.header_generic_nav_item_holder {
     display: flex;
     flex-direction: column;
     width: fit-content;
@@ -34,17 +34,17 @@
     margin-left: 2%;
 }
 
-.lgroup {
+.header_lgroup {
     float: left;
 }
 
-.rgroup {
+.header_rgroup {
     display: flex;
     flex-direction: row-reverse;
     margin: 2%;
 }
 
-.navHolder {
+.header_nav_holder {
     position: sticky;
     top: -1px;
     background-color: #FFF;
@@ -52,7 +52,7 @@
     z-index: 99; /* to ensure it is above all items */
 }
 
-.cartHolder {
+.header_cart_holder {
     display: flex;
     background-color: #FFFCB2;
     border-radius: 35px 0 0 35px;
@@ -62,7 +62,7 @@
     align-items: center;
 }
 
-.cartText {
+.header_cart_text {
     font-family: Lato, sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -73,7 +73,79 @@
     padding-left: 5px;
 }
 
-.cartHolderHolder {
+.header_cart_holder_holder {
     display: flex;
     flex-direction: row-reverse;
+}
+
+.header_cart_items_holder {
+    text-align: center;
+}
+
+.header_cart_items_heading {
+    font-family: Lato, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 10%;
+}
+
+.header_cart_items_item {
+    background: #EDEEFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_cart_items_add {
+    background: #241663;
+    padding: 5%;
+}
+
+.header_cart_items_item_basic {
+    background: #F05D6A;
+    padding: 5%;
+    border-radius: 7px;
+    margin: 2%;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0;
+    text-align: left;
+    color: white;
+}
+
+.header_cart_items_button_grp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.header_cart_items_button_grp > * {
+    margin: 20%;
+}
+
+.header_cart_pay_button {
+    background: #36BFA5;
+    border-radius: 38px;
+    border-style: none;
+    padding: 5%;
+    font-family: Lato, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0;
+    text-align: center;
+    color: white;
+    /*margin: 5%;*/
+    margin-top: 20%;
 }

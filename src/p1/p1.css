@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.listHolder {
+.p1_list_holder {
     list-style-type: ">";
     padding: 1%;
 }
 
-.listHolder > li::marker {
+.p1_list_holder > li::marker {
     color: #F06F38;
     font-style: normal;
     font-weight: 500;

@@ -23,7 +23,7 @@ function P1(){
             <img src={"/images/filler-1.png"} alt={"Kids coding in front of a laptop"} className={"p1_image"}/>
             <div className={"p1_text"}>
                 FuncBox is a box full of surprises which will teach you educational concepts and coding with a revolutionary twist.
-                <ul className={"listHolder"}>
+                <ul className={"p1_list_holder"}>
                     <li>Perfect for age group 6-12 years.</li>
                     <li>Build your own fun games.</li>
                     <li>Learn to code and explore</li>
