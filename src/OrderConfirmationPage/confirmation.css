@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.confirm_fancy_font {
+    font-family: Sacramento, cursive;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: center;
+    background: white;
+    z-index: 2;
+    position: relative;
+    width: fit-content;
+    padding: 0 5% 8% 5%;
+}
+
+.confirm_fancy_confirm {
+    font-size: 31px;
+    line-height: 45px;
+}
+
+.confirm_fancy_title {
+    font-size: 72px;
+    line-height: 105px;
+}
+
+@keyframes drive {
+    from {
+        left: 10vw;
+        bottom: 53%;
+    }
+    to {
+        left: 75vw;
+        bottom: 53%;
+    }
+}
+
+.confirm_holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-row: 2;
+}
+
+.confirm_holder > img {
+    position: absolute;
+    bottom: 53%;
+    z-index: 1;
+    animation: drive 2.5s infinite;
+}
+
+.confirm_holder_holder {
+    display: grid;
+    grid-template-rows: 2fr 5fr;
+}

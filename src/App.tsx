@@ -5,6 +5,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Order from "./OrderPage/Order";
 import Payment from "./PaymentPage/Payment";
+import Confirmation from "./OrderConfirmationPage/Confirmation";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Switch>
                 <Route exact path={"/order"}><Order/></Route>
                 <Route exact path={"/pay"}><Payment/></Route>
+                <Route exact path={"/done"}><Confirmation/></Route>
                 <Route exact path={"/"}><LandingPage/></Route>
             </Switch>
             <Footer/>
