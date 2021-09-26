@@ -49,7 +49,7 @@
     top: -1px;
     background-color: #FFF;
     overflow: hidden;
-    z-index: 100; /* to ensure it is above all items */
+    z-index: 99; /* to ensure it is above all items */
 }
 
 .cartHolder {

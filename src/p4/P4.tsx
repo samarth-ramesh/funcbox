@@ -1,6 +1,6 @@
 import "./p4.css"
 
-export default function (){
+function P4(){
     return (
         <>
             <div className={"p4_title"}>For Schools</div>
@@ -16,10 +16,12 @@ export default function (){
                         others contact our team NOW!
                     </p>
                     <p>
-                        <a>Know more</a>
+                        <a href={"/"}>Know more</a>
                     </p>
                 </div>
             </div>
         </>
     )
 }
+
+export default P4

@@ -1,6 +1,6 @@
 import "./footer.css"
 
-export default function () {
+function Footer(){
     return <div className={"footer_holder"}>
         <div className={"footer_input_holder"}>
             <label htmlFor={"touch"} className={"footer_input_label"}>Get in Touch</label>
@@ -23,3 +23,5 @@ export default function () {
         </div>
     </div>
 }
+
+export default Footer

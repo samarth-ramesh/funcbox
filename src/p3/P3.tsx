@@ -1,6 +1,6 @@
 import "./p3.css"
 
-function FaqItem(){
+function FaqItem() {
     return (
         <div className={"p3_faq_item"}>
             <div className={"p3_faq_question"}>What age is Funcbox for?</div>
@@ -9,13 +9,17 @@ function FaqItem(){
     )
 }
 
-export default function (){
+function P4() {
     return <>
         <div className={"p3_title"}>Frequently Asked Question</div>
         <div className={"p3_faq_holder"}>
             {
-                [1,2,3].map((i: number) => {return <FaqItem key={i}/>})
+                [1, 2, 3].map((i: number) => {
+                    return <FaqItem key={i}/>
+                })
             }
         </div>
     </>
 }
+
+export default P4

@@ -20,6 +20,7 @@ function GenericTopItem(props: { imgPath: string, text: string }) {
 }
 
 function Cart(){
+
     return (
         <div className={"cartHolder navHolder"}>
             <img src={"/images/cart.png"} alt={"Cart"}/>
