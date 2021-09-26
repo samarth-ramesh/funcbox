@@ -1,0 +1,154 @@
+.p2_title_text {
+    font-family: Lato, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.p2_plans_all_items {
+    height: fit-content;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: left;
+    color: white;
+    padding: 1vw;
+    padding-bottom: 7vh;
+    width: fit-content;
+    z-index: 1;
+}
+
+.p2_plans_all_pricing {
+    color: #241663;
+    background: #EDEEFF;
+    list-style-type: none;
+    padding: 3vw;
+    font-family: Lato, sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0;
+    text-align: center;
+    z-index: 2;
+    border-top: solid black 2px;
+}
+
+.p2_plans_all_pricing > li {
+    padding-top: 2.5vh;
+}
+
+
+.p2_plans_all_item_holder {
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p2_plans_all_transition {
+    transition-duration: 0.5s;
+
+}
+
+
+.p2_plans_item_text {
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: left;
+    color: white;
+    opacity: 1;
+}
+
+.p2_plans_item_title {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0;
+}
+
+.p2_plans_all_button {
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 2.5vh;
+    border: none;
+    background: none;
+}
+
+.p2_plans_basic_open {
+    transform: translateY(-8%);
+}
+
+.p2_plans_basic_closed {
+    transform: translateY(-79%);
+    padding-top: 9vh;
+}
+
+.p2_plans_basic_button {
+    color: #F05D6A;
+}
+
+.p2_plans_basic_color {
+    background: #F05D6A;
+}
+
+
+.p2_plans_standard_color {
+    background: #FFD27B
+}
+
+.p2_plans_standard_button {
+    color: #FFD27B;
+}
+
+.p2_plans_standard_open {
+    transform: translateY(-16%);
+}
+
+.p2_plans_standard_closed {
+    transform: translateY(-86%);
+    padding-top: 9vh;
+}
+
+.p2_plans_premium_color {
+    background: #36BFA5
+}
+
+.p2_plans_premium_button {
+    color: #36BFA5;
+}
+
+.p2_plans_premium_open {
+    transform: translateY(-31%);
+}
+
+.p2_plans_premium_closed {
+    transform: translateY(-100%);
+    padding-top: 9vh;
+}
+
+.p2_plans_holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
