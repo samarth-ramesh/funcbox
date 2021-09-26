@@ -1,3 +1,14 @@
+# Known Issues
+## Landing Page
+ 1. The border in each of the plans needs to get fixed.
+## Address filling page
+ 1. The styling of the form fields is very finicky
+## Credit card details
+ 1. Styling of input items _could_ be improved a bit
+## Confirmation Page
+ 1. No confetti
+ 2. The design os not very mobile friendly.
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -47,13 +58,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
-# Known Issues
-## Landing Page
- 1. The border in each of the plans needs to get fixed.
-## Address filling page
- 1. The styling of the form fields is very finicky
-## Credit card details
- 1. Styling of input items _could_ be improved a bit
-## Confirmation Page
- 1. No confetti
- 2. The design os not very mobile friendly.
+
