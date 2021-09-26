@@ -48,3 +48,15 @@
 .orderSummary_promo {
     width: 100%;
 }
+
+.orderSummary_promo_text {
+    padding-top: 5%;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+
+}

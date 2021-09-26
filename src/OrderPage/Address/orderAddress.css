@@ -30,8 +30,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: normal;
-    width: 40%;
     margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .order_input_item_holder {
@@ -39,6 +39,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 2%;
+
 }
 
 .order_input_item {

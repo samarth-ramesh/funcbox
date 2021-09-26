@@ -8,8 +8,8 @@ function Order(){
             <div className={"order_address"}>
                 <OrderAddress/>
             </div>
-            <div>
-                <OrderSummary/>
+            <div className={"order_summary"}>
+                <OrderSummary showGiftCards={true}/>
             </div>
         </div>
     )
