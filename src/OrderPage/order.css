@@ -1,0 +1,10 @@
+.order_grid {
+    display: grid;
+    grid-template-columns: 2fr 7fr 2fr 2fr ;
+    grid-template-rows: none;
+}
+
+.order_address {
+    grid-column: 2;
+}
+

@@ -1,0 +1,50 @@
+.orderSummary_title {
+    font-family: Lato, sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.orderSummary_total {
+    font-family: Lato, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.orderSummary_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order_Summary_link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    background: #F3EF93;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    margin-top: 25%;
+    padding: 5%;
+}
+
+.order_Summary_link:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.orderSummary_promo {
+    width: 100%;
+}

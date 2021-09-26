@@ -3,7 +3,7 @@ import {useState} from "react";
 // @ts-ignore
 import CheeseburgerMenu from 'cheeseburger-menu'
 
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 
 function Logo() {
     return (
@@ -24,13 +24,17 @@ function GenericTopItem(props: { imgPath: string, text: string }) {
 }
 
 function Cart() {
-
-    return (
-        <div className={"header_cart_holder header_nav_holder"}>
-            <img src={"/images/cart.png"} alt={"Cart"}/>
-            <div className={"header_cart_text"}>Go To Cart</div>
-        </div>
-    )
+    const location = useLocation()
+    if (location.pathname == "/") {
+        return (
+            <div className={"header_cart_holder header_nav_holder"}>
+                <img src={"/images/cart.png"} alt={"Cart"}/>
+                <div className={"header_cart_text"}>Go To Cart</div>
+            </div>
+        )
+    } else {
+        return null
+    }
 }
 
 function CartItems() {
@@ -47,7 +51,7 @@ function CartItems() {
                     </div>
                 </div>
             </div>
-            <Link to={"/"} className={"header_cart_pay_button"}>Proceed to pay</Link>
+            <Link to={"/order"} className={"header_cart_pay_button"}>Proceed to pay</Link>
         </div>
     )
 }
