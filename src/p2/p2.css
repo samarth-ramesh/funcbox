@@ -23,6 +23,8 @@
     padding-bottom: 7vh;
     width: fit-content;
     z-index: 1;
+    border-radius: 9px;
+
 }
 
 .p2_plans_all_pricing {
@@ -38,7 +40,10 @@
     letter-spacing: 0;
     text-align: center;
     z-index: 2;
-    border-top: solid black 2px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px
+
 }
 
 .p2_plans_all_pricing > li {
