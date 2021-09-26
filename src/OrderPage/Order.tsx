@@ -9,7 +9,7 @@ function Order(){
                 <OrderAddress/>
             </div>
             <div className={"order_summary"}>
-                <OrderSummary showGiftCards={true}/>
+                <OrderSummary showGiftCards={true} text={"Proceed to Pay"} link={"/pay"}/>
             </div>
         </div>
     )

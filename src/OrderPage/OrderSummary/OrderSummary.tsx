@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import "./orderSummary.css"
 
-function OrderSummary(props: {showGiftCards: boolean}){
+function OrderSummary(props: {showGiftCards: boolean, text: string, link: string}){
     return (
         <div>
             <div className={"orderSummary_title"}>Order Summary</div>
@@ -18,7 +18,7 @@ function OrderSummary(props: {showGiftCards: boolean}){
                 <div>Total:</div>
                 <div>₹840.00</div>
             </div>
-            <Link to={"/pay"} className={"order_Summary_link"}>Proceed to pay</Link>
+            <Link to={props.link} className={"order_Summary_link"}>{props.text}</Link>
             {
                 props.showGiftCards ? <div>
                     <div className={"orderSummary_promo_text"}>

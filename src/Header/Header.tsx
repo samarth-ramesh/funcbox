@@ -25,7 +25,7 @@ function GenericTopItem(props: { imgPath: string, text: string }) {
 
 function Cart() {
     const location = useLocation()
-    if (location.pathname == "/") {
+    if (location.pathname === "/") {
         return (
             <div className={"header_cart_holder header_nav_holder"}>
                 <img src={"/images/cart.png"} alt={"Cart"}/>

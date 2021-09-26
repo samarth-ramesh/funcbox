@@ -1,0 +1,13 @@
+.payment_ccinput {
+    grid-column: 2;
+}
+
+.payment_order {
+    grid-column: 4;
+}
+
+.payment_holder {
+    display: grid;
+    grid-template-rows: none;
+    grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+}
