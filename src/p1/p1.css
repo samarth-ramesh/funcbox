@@ -18,7 +18,7 @@
     height: fit-content;
     padding: 4%;
     padding-left: 10%;
-    background: #FFF9E7 url("public/images/box.png") no-repeat center/contain;
+    background: #FFF9E7 url("box.png") no-repeat center/contain;
     overflow: hidden;
     z-index: 0;
     position: relative;

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.p4_title {
+    font-family: Lato, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 5%;
+}
+
+.p4_holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.p4_text {
+    font-family: Lato, sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+
+.p4_text_holder > p > a {
+    font-family: Roboto, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #1F86D1;
+}
+
+.p4_text_holder {
+    background: #F8F8F8;
+    margin-left: 2%;
+    padding: 2%;
+}
