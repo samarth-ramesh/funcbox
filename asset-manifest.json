@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/funcbox/static/css/main.e8704d70.chunk.css",
-    "main.js": "/funcbox/static/js/main.36ff9f4b.chunk.js",
-    "main.js.map": "/funcbox/static/js/main.36ff9f4b.chunk.js.map",
-    "runtime-main.js": "/funcbox/static/js/runtime-main.73f0461c.js",
-    "runtime-main.js.map": "/funcbox/static/js/runtime-main.73f0461c.js.map",
-    "static/js/2.8a11e472.chunk.js": "/funcbox/static/js/2.8a11e472.chunk.js",
-    "static/js/2.8a11e472.chunk.js.map": "/funcbox/static/js/2.8a11e472.chunk.js.map",
-    "static/js/3.482f157c.chunk.js": "/funcbox/static/js/3.482f157c.chunk.js",
-    "static/js/3.482f157c.chunk.js.map": "/funcbox/static/js/3.482f157c.chunk.js.map",
-    "index.html": "/funcbox/index.html",
-    "static/css/main.e8704d70.chunk.css.map": "/funcbox/static/css/main.e8704d70.chunk.css.map",
-    "static/js/2.8a11e472.chunk.js.LICENSE.txt": "/funcbox/static/js/2.8a11e472.chunk.js.LICENSE.txt",
-    "static/media/p1.css": "/funcbox/static/media/box.9c9e9bba.png",
-    "static/media/footer.css": "/funcbox/static/media/eyecandy-footer.d70a2401.png"
+    "main.css": "/static/css/main.989e9802.chunk.css",
+    "main.js": "/static/js/main.e93943d4.chunk.js",
+    "main.js.map": "/static/js/main.e93943d4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1c5ec9de.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1c5ec9de.js.map",
+    "static/js/2.ad841ef8.chunk.js": "/static/js/2.ad841ef8.chunk.js",
+    "static/js/2.ad841ef8.chunk.js.map": "/static/js/2.ad841ef8.chunk.js.map",
+    "static/js/3.1431fff7.chunk.js": "/static/js/3.1431fff7.chunk.js",
+    "static/js/3.1431fff7.chunk.js.map": "/static/js/3.1431fff7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.989e9802.chunk.css.map": "/static/css/main.989e9802.chunk.css.map",
+    "static/js/2.ad841ef8.chunk.js.LICENSE.txt": "/static/js/2.ad841ef8.chunk.js.LICENSE.txt",
+    "static/media/p1.css": "/static/media/box.9c9e9bba.png",
+    "static/media/footer.css": "/static/media/eyecandy-footer.d70a2401.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.73f0461c.js",
-    "static/js/2.8a11e472.chunk.js",
-    "static/css/main.e8704d70.chunk.css",
-    "static/js/main.36ff9f4b.chunk.js"
+    "static/js/runtime-main.1c5ec9de.js",
+    "static/js/2.ad841ef8.chunk.js",
+    "static/css/main.989e9802.chunk.css",
+    "static/js/main.e93943d4.chunk.js"
   ]
 }
