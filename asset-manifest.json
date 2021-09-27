@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/funcbox/static/css/main.e8704d70.chunk.css",
-    "main.js": "/funcbox/static/js/main.9fce2717.chunk.js",
-    "main.js.map": "/funcbox/static/js/main.9fce2717.chunk.js.map",
+    "main.js": "/funcbox/static/js/main.36ff9f4b.chunk.js",
+    "main.js.map": "/funcbox/static/js/main.36ff9f4b.chunk.js.map",
     "runtime-main.js": "/funcbox/static/js/runtime-main.73f0461c.js",
     "runtime-main.js.map": "/funcbox/static/js/runtime-main.73f0461c.js.map",
     "static/js/2.8a11e472.chunk.js": "/funcbox/static/js/2.8a11e472.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.73f0461c.js",
     "static/js/2.8a11e472.chunk.js",
     "static/css/main.e8704d70.chunk.css",
-    "static/js/main.9fce2717.chunk.js"
+    "static/js/main.36ff9f4b.chunk.js"
   ]
 }
